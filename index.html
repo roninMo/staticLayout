@@ -4,10 +4,393 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
     <link rel="stylesheet" href="index.css">
-    <title>Devhints Copy</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+    <title>Devhints Mk.II</title>
 </head>
 <body>
+    <nav>
+        <div class="row">
+            <div class="lArrow">
+                <a href="#"><ion-icon name="arrow-back" class="icon-big"></ion-icon></a>
+            </div>
+            <div class="bName">
+                <a href="#" class="brand">Devhints.io</a>
+
+            </div>
+            <div class="social tooltip">
+                    <a href="#"><ion-icon name="logo-twitter" class="icon-small"></ion-icon></a>
+                    <div class="bottom">
+                            <p>Share on Twitter</p>
+                            <i></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="social tooltip">
+                    <a href="#"><ion-icon name="logo-facebook" class="icon-small"></ion-icon></a>
+                    <div class="bottom">
+                            <p>Share on Facebook</p>
+                            <i></i>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <section class="main">
+        <div class="row-main">
+            <h1>Nico's cheatsheets</h1>
+            <span class="main-desc">
+                Hey! I'm <a href="https://ricostacruz.com">@starcruz</a> and this is a modest collection of the cheatsheets I've written.
+            </span>
+        </div>
+
+        <form method="post" action="#" class="contact-form clearfix">
+            <div class="search">
+                <input type="text" name="name" id="name" placeholder="devhints.io / Search...">
+                <ion-icon name="search" class="sGlass"></ion-icon>
+            </div>
+            <div class="main-description">
+                <h4>Proudly sponsered by</h4>
+                <p class="main-desc">
+                    <b>Rollbar</b> catch the <ion-icon name="bug"></ion-icon> before your users do, <br>
+                    resolve in minutes, deploy with confidence.
+                </p>
+                <h4><i>ethical</i> ad by CodeFund</h4>
+
+            </div>
+    </section>
+
+    <section class="pageList">
+        <div class="row-main">
+        <ul class="showcase clearfix">
+            <li>
+                <div class="col span-1-of-4 block primary">
+                        <p class="case">
+                            bash <strong>&#8226;</strong>
+                        </p>
+                </div>
+            </li>
+            <li>
+                <div class="col span-1-of-4 block secondary">
+                    <p class="case">
+                        enzyme <strong>&#8226;</strong>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="col span-1-of-4 block tertiary">
+                    <p class="case">
+                        es6 <strong>&#8226;</strong>
+                    </p>
+                </div>
+                    
+            </li>
+            <li>
+                <div class="col span-1-of-4 block primary">
+                    <p class="case">
+                        go <strong>&#8226;</strong>
+                    </p>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="showcase clearfix">
+            <li>
+                <div class="col span-1-of-4 block secondary">
+                    <p class="case">
+                        react <strong>&#8226;</strong>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="col span-1-of-4 block tertiary">
+                    <p class="case">
+                        sass <strong>&#8226;</strong>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="col span-1-of-4 block primary">
+                    <p class="case">
+                        vim <strong>&#8226;</strong>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="col span-1-of-4 block secondary">
+                    <p class="case">
+                        xpath <strong>&#8226;</strong>
+                    </p>
+                </div>
+            </li>
+        </ul>
+        </div>
+    </section>
+    <section class="section-repo">
+        <div class="row-main" style="margin-top: 0 auto">
+            <div class="header clearfix">
+                <h3>Recently Updated</h3>
+            </div>
+
+            <div class="col span-1-of-2 repo1">
+                <ul class="repoList clearfix">
+                    <li class="lilinks">
+                        <a href="#" class="lili">regexp <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">jsdoc <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">rest-api <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">bolt <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">css-grid <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">bulma <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">react <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">semver <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">docker-compose <strong>&#8226;</strong></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col span-1-of-2 repo2 clearfix">
+                <ul class="repoList clearfix">
+                    <li class="lilinks">
+                        <a href="#" class="lili">bash <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">scp <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">mysql <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">kotlin <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">cssharp7 <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">emmet< <strong>&#8226;</strong>/a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">vim <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">pacman <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">cidr <strong>&#8226;</strong></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+<div class="row-main" style="margin-top: 0 auto">
+        <div class="header clearfix util-margin-top">
+            <h3>Analytics</h3>
+        </div>
+
+            <div class="col span-1-of-2 repo1">
+                <ul class="repoList">
+                    <li class="lilinks">
+                        <a href="#" class="lili">analytics.js <strong>&#8226;</strong></a>
+                    </li>
+                    <li class="lilinks">
+                        <a href="#" class="lili">mixpanel <strong>&#8226;</strong></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col span-1-of-2 repo2">
+                <ul class="repoList">
+                    <li class="lilinks">
+                        <a href="#" class="lili">analytics <strong>&#8226;</strong></a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    
+    </section>
+
+    <section>
+            <div class="row-main" style="margin-top: 0 auto">
+                    <div class="header clearfix util-margin-top">
+                        <h3>Ansible</h3>
+                    </div>
+                
+                        <div class="col span-1-of-2 repo1">
+                            <ul class="repoList">
+                                <li class="lilinks">
+                                    <a href="#" class="lili">ansible-exmaples <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">ansible-modules <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">ansible <strong>&#8226;</strong></a>
+                                </li>
+                            </ul>
+                        </div>
+                
+                        <div class="col span-1-of-2 repo2">
+                            <ul class="repoList">
+                                <li class="lilinks">
+                                    <a href="#" class="lili">ansible-guide <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">ansible-roles <strong>&#8226;</strong></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>      
+    </section>
+    <section>
+            <div class="row-main" style="margin-top: 0 auto">
+                    <div class="header clearfix util-margin-top">
+                        <h3>Apps</h3>
+                    </div>
+                
+                        <div class="col span-1-of-2 repo1">
+                            <ul class="repoList">
+                                <li class="lilinks">
+                                    <a href="#" class="lili">atom <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">flashlight <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">org-mode <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">spacemacs <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">vscode <strong>&#8226;</strong></a>
+                                </li>
+                            </ul>
+                        </div>
+                
+                        <div class="col span-1-of-2 repo2">
+                            <ul class="repoList">
+                                <li class="lilinks">
+                                    <a href="#" class="lili">editor-config <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">inkcsape <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">sketch <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">sublime-text <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">weechat <strong>&#8226;</strong></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>      
+    </section>
+
+    <section>
+            <div class="row-main" style="margin-top: 0 auto">
+                    <div class="header clearfix util-margin-top">
+                        <h3>C-Like</h3>
+                    </div>
+                
+                        <div class="col span-1-of-2 repo1">
+                            <ul class="repoList">
+                                <li class="lilinks">
+                                    <a href="#" class="lili">c_preprocessor <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">go <strong>&#8226;</strong></a>
+                                </li>
+                            </ul>
+                        </div>
+                
+                        <div class="col span-1-of-2 repo2">
+                            <ul class="repoList">
+                                <li class="lilinks">
+                                    <a href="#" class="lili">cssharp <strong>&#8226;</strong></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>      
+    </section>
+
+    <section>
+            <div class="row-main" style="margin-top: 0 auto">
+                    <div class="header clearfix util-margin-top">
+                        <h3>CLI</h3>
+                    </div>
+                
+                        <div class="col span-1-of-2 repo1">
+                            <ul class="repoList">
+                                <li class="lilinks">
+                                    <a href="#" class="lili">adb <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">ansi <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">composer <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">curl <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">ffmpeg <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">fish-shell <strong>&#8226;</strong></a>
+                                </li>
+                            </ul>
+                        </div>
+                
+                        <div class="col span-1-of-2 repo2">
+                            <ul class="repoList">
+                                <li class="lilinks">
+                                    <a href="#" class="lili">animated-gif <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">bash <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">cron <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">emacs <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">find <strong>&#8226;</strong></a>
+                                </li>
+                                <li class="lilinks">
+                                    <a href="#" class="lili">gnupg <strong>&#8226;</strong></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>      
+    </section>
     
 </body>
 </html>

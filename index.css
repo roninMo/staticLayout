@@ -1,0 +1,364 @@
+/* ------------------------------------------------------- */
+    /* BASIC SETUP */
+/* ------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+html,
+body {
+    background-color: #F1F3F5;
+    color: #555;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    text-rendering: optimizeLegibility; /*"this will make our fonts rendering in a perfect way" - Jeff Dunham */
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden; 
+}
+
+/* ------------------------------------------------------- */
+    /* REUSABLE COMPONENTS */
+/* ------------------------------------------------------- */
+
+.row {
+    max-width: 1232px;
+    margin: auto;
+}
+.row-main {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 1.6rem;
+    display: block;
+    text-align: center;
+}
+
+section {
+    padding: 20px 0px;
+    font-size: 1.4rem;
+}
+
+.box {
+    padding: 1%;
+}
+
+
+/* ------------------------------------------------------- */
+    /* HEAGINGS */
+/* ------------------------------------------------------- */
+.bName {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: .025rem;
+    text-transform: uppercase;
+    text-align: center;
+    height: 65px;
+    margin: auto;
+    margin-top: 1rem;
+    position: absolute;
+    top: 45px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+h1 {
+    color: #111111;
+    font-size: 4.5rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: .5rem;
+
+}
+h4 {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: .5rem;
+
+}
+.search {
+    font-size: 1.5rem;
+}
+
+.sGlass {
+    position: absolute;
+    left: 108rem;
+    top: 20rem;
+    font-size: 2rem;
+}
+
+
+.contact-form {
+    width: 60%;
+    margin: auto;
+    
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+/* This gets rid of the blue outline on selected forms*/
+*:focus {outline: none}
+
+.main-description {
+    margin-top: 2rem;
+}
+.main-desc {
+    text-align: center;
+}
+
+
+/* ------------------------------------------------------- */
+    /* PARAGRAPHS */
+/* ------------------------------------------------------- */
+p {
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+}
+span {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+/* ------------------------------------------------------- */
+    /* NAVIGATION */
+/* ------------------------------------------------------- */
+nav {
+    height: 65px;
+}
+.lArrow {
+    float: left;
+    padding: 1rem;
+}
+.social {
+    float: right;
+    position: relative;
+    padding: 1rem .5rem;
+}
+
+
+/* ------------------------------------------------------- */
+    /* MAIN SECTION */
+/* ------------------------------------------------------- */
+.site-header {
+    margin: 32px 0;
+}
+
+.pageList {
+    margin-top: 2rem;
+}
+
+.block {
+    height: 1rem;
+    padding: 2.5rem;
+    margin: .5rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(102,119,136,.55);
+    text-shadow: 0 1px 1px rgba(51,68,85,.3);
+
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.case {
+    display: inline-block;
+    color: #F0F2F4;
+    text-align: center;
+    margin: auto;
+
+}
+
+strong {
+    color: #77DAB2;
+    font-size: 2rem;
+}
+
+
+
+
+.showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.primary {
+    background: linear-gradient(to bottom,#745fb5,#9a6dbb);
+}
+.primary:hover {
+    background: linear-gradient(15deg,#5a498b,#7f5a99);
+}
+
+.secondary {
+    background: linear-gradient(to bottom,#678,#6f8793);
+}
+.secondary:hover {
+    background: linear-gradient(to bottom,rgb(84, 98, 112),#607580);
+}
+
+.tertiary {
+    background: linear-gradient(to bottom, #14af83,#15b89a);
+}
+.tertiary:hover {
+    background: linear-gradient(to bottom, #119670,#119980);
+}
+
+
+/* ------------------------------------------------------- */
+    /* REPO SECTION */
+/* ------------------------------------------------------- */
+h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: .5rem;
+    width: 100%;
+    border-bottom: 1px solid #D6DADF;
+
+}
+ul {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 3.5rem;
+}
+
+.section-repo {
+    display: block;
+}
+
+.lilinks {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.repo1 {
+    width: 50%;
+    float: left;
+}
+.repo2 {
+    width: 50%;
+    float: right;
+}
+
+.util-margin-top {
+    margin-top: 2.5rem;
+}
+
+.header {
+    text-align: left;
+}
+
+/* ------------------------------------------------------- */
+    /* BUTTONS AND ICONS */
+/* ------------------------------------------------------- */
+.icon-big {
+    padding: 2rem 0;
+    font-size: 2.5rem;
+}
+.icon-big:hover {
+    border-radius: 50%;
+    background-color: #7460B5;
+    color: #F1F3F5;
+}
+
+.icon-small {
+    padding: 1.5rem .8rem;
+    font-size: .45rem;
+}
+
+
+/* ------------------------------------------------------- */
+    /* LINKS */
+/* ------------------------------------------------------- */
+a {
+    text-decoration: none;
+    color: #345;
+}
+a:hover {
+    color: #7460B5;
+}
+span a {
+    color: #7460B5;
+    font-size: 1.4rem;
+}
+
+
+/* ------------------------------------------------------- */
+    /* TOOLTIP */
+/* ------------------------------------------------------- */
+.tooltip {
+    display:inline-block;
+    position:relative;
+    text-align:center;
+}
+
+.tooltip .bottom {
+    min-width:200px; 
+    top:60px;
+    left:50%;
+    transform:translate(-50%, 0);
+    padding:10px 20px;
+    color:#F0F2F4;
+    background-color:#345;
+    font-weight:normal;
+    font-size:.8rem;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+}
+
+.tooltip:hover .bottom {
+    display:block;
+}
+
+.tooltip .bottom i {
+    position:absolute;
+    bottom:100%;
+    left:50%;
+    margin-left:-12px;
+    width:24px;
+    height:12px;
+    overflow:hidden;
+}
+
+.tooltip .bottom i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:50%;
+    transform:translate(-50%,50%) rotate(45deg);
+    background-color:#345;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
